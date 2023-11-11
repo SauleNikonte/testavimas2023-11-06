@@ -1,0 +1,66 @@
+.main {
+    width: 800px;
+  }
+  #table2 {
+    width: 100%;
+  }
+  .header {
+    width: 100%
+  }
+  #invoice {
+    font-size: 30px;
+    color: gray;
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+}
+table {
+    width: 100%;
+    margin-top: 10%;
+}
+tr :nth-child(1) {
+    width: 50%;
+}
+tr :nth-child(2) {
+    width: 10%;
+}
+tr :nth-child(3) {
+    width: 10%;
+}
+tr :nth-child(4) {
+    width: 50%;
+}
+img {
+    width: 100px;
+    align: center center;
+    
+}
+.ins {
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    width: 50%
+}
+#text {
+    text-align: center;
+}
+#monitor {
+    border-collapse: collapse;
+    width: 800px;
+}
+#monitor td {
+    border: 1px solid rgb(105, 198, 241);
+}
+#monitor th {
+    background-color: blue;
+    color: white;
+}
+#monitor tr:nth-child(even) {
+    background-color: #a7a292;
+  }
+.subtotal {
+        width: 800px;
+        border: 1px solid rgb(105, 198, 241);
+        background-color: rgb(125, 125, 235);
+        color: white;
+      }
